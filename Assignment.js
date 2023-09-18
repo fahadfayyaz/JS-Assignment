@@ -23,18 +23,45 @@ alert("A cup of coffee and javascript is best therapy ;)");
 // ***********************************Q1 **********************************
 var camelCase;
 // ***********************************Q2 **********************************
-
 var myVar;
 myVar ="varable initialize";
 
 // ***********************************Q3 **********************************
-
-
 var teamName="Pakistan";
 alert("My team is :" + teamName);
 
 // ***********************************Q4 **********************************
 
 var bestMan = "Charlie";
-
 bestMan="smith";
+
+// ***********************************Chapter 3**********************************
+// ***********************************Q1 **********************************
+var caseQty;
+
+// ***********************************Q2 **********************************
+caseQty = 144;
+
+// ***********************************Q3 **********************************
+
+var num = "9";
+// ***********************************Q4 **********************************
+
+var total;
+total = caseQty+num;
+alert(total)
+
+// ***********************************Q5 **********************************
+var merchTotal = 100;
+var shippingCharge = 10;
+var orderTotal = merchTotal + shippingCharge;
+alert(orderTotal)
+
+
+// ***********************************Q6 **********************************
+
+let myNumber = 5;
+myNumber = myNumber + 3;
+
+// Now, the variable "myNumber" holds the value 8
+console.log(myNumber); // Output will be 8
