@@ -87,3 +87,31 @@ var myVariable, _privateVar, user123, $price;
 // my Variable, user-name, price@discount , 23invalid, 7up
 // var, if, while, function, typeof (reserved keywords)  
 // Math, console, toString, length(built-in objects, properties, or methods.)
+
+
+// ***********************************Chapter 05**********************************
+// ***********************************Q1 **********************************
+
+// ***********************************Q2 **********************************
+var num = 20 % 6;
+// answer is 2 
+
+// ***********************************Q3 **********************************
+var largeNum = 1000 *2000
+// ***********************************Q4 **********************************
+let firstNum = 10;
+let secondNum = 5;
+let result = firstNum - secondNum;
+console.log(result)
+// ***********************************Q5 **********************************
+
+let myRemainder;
+let dividend = 15;
+let divisor = 4;
+
+myRemainder = dividend % divisor;
+console.log(myRemainder);
+
+// ***********************************Q6 **********************************
+
+alert(largeNum);
