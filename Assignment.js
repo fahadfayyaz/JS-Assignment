@@ -149,3 +149,30 @@ myNumber1++;
 alert("The new value is: " + myNumber1);
 
 
+
+
+// ==================================================Chapter 07 ==================================================
+//                                                         Q1 
+// calculatedNum is 14.
+//                                                         Q2 
+// calculatedNum is 24.
+//                                                         Q3 
+// calculatedNum is 24.
+//                                                         Q4 
+
+// calculatedNum is 18.
+//                                                         Q5 
+
+var cost = (2 + 2) * (4 + 10); 
+//                                                         Q6
+var units = 2 + (2 * 4 )+ 10;
+//                                                         Q7 
+let pressure = (4 / 2) + (4 - 1); // (2) + (3) = 5;
+//not possible to produce 5 from original statement  (4 / 2) * 4 
+
+
+
+//                                                         Q8 
+
+
+
