@@ -65,3 +65,25 @@ myNumber = myNumber + 3;
 
 // Now, the variable "myNumber" holds the value 8
 console.log(myNumber); // Output will be 8
+
+
+
+
+
+// ***********************************Chapter 04**********************************
+// ***********************************Q1 **********************************
+var productcost = 3.45;
+// ***********************************Q2 **********************************
+var nameOfBand;
+// ***********************************Q3 **********************************
+var num1 = 1;
+// ***********************************Q4 **********************************
+var fahadFayyaz;
+// ***********************************Q5 **********************************
+// legal vaiable
+var myVariable, _privateVar, user123, $price;
+
+// illegal variable
+// my Variable, user-name, price@discount , 23invalid, 7up
+// var, if, while, function, typeof (reserved keywords)  
+// Math, console, toString, length(built-in objects, properties, or methods.)
