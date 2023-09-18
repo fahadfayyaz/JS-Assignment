@@ -172,7 +172,51 @@ let pressure = (4 / 2) + (4 - 1); // (2) + (3) = 5;
 
 
 
-//                                                         Q8 
+
+// ==================================================Chapter 08 ==================================================
+
+
+//                                                         Q1 
+// num value will be 22
+//                                                         Q2 
+alert("Hello," + "Dolly")
+//                                                         Q3 
+alert("33" + 3);
+//333
+//                                                         Q4 
+alert("Pakistan," + "Zindabad")
+//                                                         Q5 
+var textToNum = "8" + 8;
+//                                                         Q6
+var t1 = "Javascrip"; var t2 = "Assignment";
+var t3 = t2+t3;
 
 
 
+// ==================================================Chapter 09 ==================================================
+
+
+                                                         Q1
+var firstName1 = prompt("Enter first name");
+
+//
+var defaultAnswer="China";                                                        Q2
+var country = prompt("Counter?", defaultAnswer);
+
+//                                                          Q3
+var yourName = prompt("Enter Your Name");
+
+//                                                          Q4
+const defaultMessage = "Hello";
+var message = prompt("Enter a message (default is 'Hello'): ") || defaultMessage;
+
+//                                                          Q5
+const str1="This is the prompt box";
+const str2="This is the default response";
+const str3 = prompt(str1,str2);
+//                                                          Q6
+
+const strM1="This is the prompt box";
+const strM2="This is the default response";
+const strM3 = prompt(strM1,strM2);
+alert(strM3);
