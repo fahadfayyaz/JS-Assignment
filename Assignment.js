@@ -259,3 +259,27 @@ if(check===1){
 else{
     console.log("Do nothing");
 }
+
+
+// ==================================================Chapter 11 ==================================================
+
+
+//                                                         Q1
+var a=3,b=2;
+if(a!==b){}
+//                                                         Q2
+if(a>=b){}
+//                                                         Q3
+if(a!==b){
+    a=b;
+}
+//                                                         Q4
+if(1!==2){
+    alert("Congratulations");
+}
+//                                                         Q5
+
+var myname = prompt("Enter your name : ");
+if(myname!=="Ali"){
+alert("No match");
+}
