@@ -196,7 +196,7 @@ var t3 = t2+t3;
 // ==================================================Chapter 09 ==================================================
 
 
-                                                         Q1
+//                                                         Q1
 var firstName1 = prompt("Enter first name");
 
 //
@@ -220,3 +220,42 @@ const strM1="This is the prompt box";
 const strM2="This is the default response";
 const strM3 = prompt(strM1,strM2);
 alert(strM3);
+
+// ==================================================Chapter 10 ==================================================
+
+
+//                                                         Q1
+
+
+var city = "Karachi";
+if (city = "Karachi") {
+console.log("The City OF Lights");
+}
+//                                                         Q2
+
+if(X===Y){
+
+    var input = prompt("Enter the value of Z : ");
+
+}
+
+//                                                         Q3
+var zipCode ="10010";
+if(zipCode ==="10010"){
+    alert("Karachi")
+}
+else{
+    prompt("Please write correct city");
+}
+
+//                                                         Q4
+
+var check=1;
+
+if(check===1){
+
+    check=2;
+}
+else{
+    console.log("Do nothing");
+}
