@@ -295,4 +295,107 @@ if (a === 10) {
 var city = prompt("Enter your city : ");
 
 if (city === "Karachi") {
+  alert("It's karachi");
+} else if (city === "Lahore") {
+  alert("It's Lahore");
+} else {
+  alert("Other city");
 }
+
+// ==================================================Chapter 13 ==================================================
+
+//                                                         Q1
+if (a === b && c === d) {
+}
+
+//                                                         Q2
+if (a === b || c !== d) {
+}
+//                                                         Q3
+
+var name1;
+
+if ((name1 = "Hamza" || name1 === "Arsalan") && age < 60) {
+}
+//                                                         Q4
+
+var num1 = 2;
+var num2 = 3;
+if (num1 < num2 || num1 > num2) {
+  alert("both variables are not equal");
+}
+//                                                         Q5
+firstname = "fahad";
+lastName = "fayyaz";
+
+var firstp = prompt("Enter you first name : ");
+var secondp = prompt("Enter you last name : ");
+
+if (firstp === firstName && secondp === lastName) {
+  alert("Welcome");
+}
+
+// ==================================================Chapter 14 ==================================================
+
+// 
+var password="12343";                                                        Q1
+if(password.length !== ''){
+  
+    if(password.length<=5){
+      alert('Password must be greater than 5');
+    }
+    else if(password.length>5){
+      alert('OK')
+    }
+
+}
+//                                                         Q2
+if (a === 1) {
+  if (c === "Max") {
+   alert("OK");
+   }
+  }
+
+//                                                         Q3
+if(a===1 && c==="Max"){
+  alert("Ok")
+}
+//                                                         Q4
+var a1 = 2, a2 = 2;                                                       
+if(a1===a2){
+  if(a1<=a2){
+    alert("IN 2nd if");
+  }
+
+}
+
+
+// ==================================================Chapter 15 ==================================================
+
+//                                                          Q1
+var pets=[];
+//                                                          Q2
+var arry = ["sets"];
+//                                                          Q3
+var alphabet = ["h","i","j","k"];
+alert(alphabet[2]);
+
+//                                                          Q4
+var alphabet1=["h","i","j","k", "l","m", "n", "o"];
+alphabet.length
+//                                                          Q5
+
+var arry1 = ["test"];
+
+arry1[1] = "test2";
+
+alert(arry1[1]);
+
+// ==================================================Chapter 16 ==================================================
+
+//                                                          Q1
+
+var arry3 = ["test"];
+
+arry3.push("test2");
+alert(arry3[1]);
