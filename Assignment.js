@@ -399,3 +399,11 @@ var arry3 = ["test"];
 
 arry3.push("test2");
 alert(arry3[1]);
+
+//                                                          Q2
+var Alphabet=["h","i","j","k"];
+alphabet.pop();
+//                                                          Q3
+
+var Alphabet=["h","i","j","k"];
+alphabet.push(1);
