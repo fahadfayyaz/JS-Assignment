@@ -407,3 +407,35 @@ alphabet.pop();
 
 var Alphabet=["h","i","j","k"];
 alphabet.push(1);
+
+
+
+
+// ==================================================Chapter 16-III ==================================================
+
+//                                                          Q1
+
+var sizes = ["S", "M", "XL", "XXL", "XXXL"];
+sizes.shift();
+//                                                          Q2
+var sizes = ["S", "M", "XL", "XXL", "XXXL"];
+sizes.unshift("1","2","3");
+//                                                          Q3
+var sizes = ["S"];
+sizes.shift("L");
+alert(sizes[0]);
+//                                                          Q4
+var sizes = ["S", "M", "XL", "XXL", "XXXL"];
+sizes.splice(2,"L");
+//                                                          Q5
+var sizes = ["S", "M", "XL", "XXL", "XXXL"];
+var newsize = sizes.slice(0,3);
+//                                                          Q6
+var pets = ["dog", "cat", "ox", "duck", "frog"];
+pets.splice(1,3,"lion","snake");
+//                                                          Q7
+var pets = ["dog", "cat", "ox", "duck", "frog"];
+pets.splice(1,2);
+//                                                          Q8
+var pets = ["dog", "cat", "ox", "duck", "frog", "flea"];
+var newpets = pets.slice(3,5);
